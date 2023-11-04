@@ -5,14 +5,14 @@ information about the movie from an open-source API. If a movie is not available
 fetching movie details from the server, it displays a loading spinner to keep users informed of the search progress.
 
 Features
-Search by Movie Name: Users can enter the name of a movie they want to search for, and the app will query the API for information related to that movie.
+<b>Search by Movie Name<b/>: Users can enter the name of a movie they want to search for, and the app will query the API for information related to that movie.
 
-Detailed Movie Information: Once a movie is found in the API, the app provides detailed information about the movie, including its title, release year, genre, plot summary, 
+<b>Detailed Movie Information<b/>: Once a movie is found in the API, the app provides detailed information about the movie, including its title, release year, genre, plot summary, 
 and more.
 
-Error Handling: If the app cannot find a movie based on the user's search, it gracefully handles the situation by displaying a "Movie Not Found" message.
+<b>Error Handling<b/>: If the app cannot find a movie based on the user's search, it gracefully handles the situation by displaying a "Movie Not Found" message.
 
-Loading Spinner: While the app is retrieving data from the API, it displays a loading spinner to give users visual feedback that the search is in progress.
+<b>Loading Spinner<b/>: While the app is retrieving data from the API, it displays a loading spinner to give users visual feedback that the search is in progress.
 
 Technologies Used
 This project is built using the following technologies:
