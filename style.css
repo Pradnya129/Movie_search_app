@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    background-color: #18191a;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+input{
+    padding: 18px ;
+    width: 600px;
+    font-size: 17px;
+    border:2px solid transparent;
+    background-color: #4b4a4a;
+    color: white;
+    border-radius: 12px 0 0 12px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #FFC837;
+}
+.btn{
+    padding: 18px 36px;
+    font-size: 17px;
+    background-color: #FFC837;
+    border:1px solid transparent;
+    border: none;
+    border-radius: 0 12px 12px 0;
+    
+}
+
+.intro{
+    width: 550px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.intro h1{
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: 0;
+}
+.intro p{
+    font-size: 20px;
+    color: #afafaf;
+}
+
+.highlight{
+    background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+.loader {
+    margin:190px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #dbdcef;
+    border-right-color: #7c7c81bb;
+    animation: loader-d3wgkg 1s infinite linear;
+}
+@keyframes loader-d3wgkg {
+    to {
+       transform: rotate(1turn);
+    }
+}
+.movie-container{
+    display: flex;
+    width: 800px;
+    color:white;
+    margin:40px auto;
+    justify-content: space-between;
+}
+.movie-img{
+    width: 300px;
+    padding-left: 10px;
+    
+}
+.movie-img-container{
+    position: relative;
+
+}
+.ratings{
+    top:0;
+    left:0;
+    position: absolute;
+    margin: 20px 25px;
+    background-color: rgba(226, 229, 231, 0.836);
+    color: black;
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+.genre{
+    bottom: 0;
+    left:0;
+    position: absolute;
+    margin: 20px 25px;
+    background-color: #FFC837;
+    color: black;
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+.desc{
+    color: #afafaf;
+    font-size: 15px !important
+}
+
+.content p{
+    font-size: 18px;
+}
+.d-none{
+    display: none;
+}
+.error{
+    background: linear-gradient(90deg, #FF8008 0%, #FFC837 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 46px;
+    text-align: center;  
+    margin-top: 50px; 
+}

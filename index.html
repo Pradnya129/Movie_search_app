@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div class="search-container">
+    <input type="text" id="movieName" placeholder="Search a movie by name...">
+    <button class="btn" onclick="FetchMovieDetails()">Search Movie</button>
+</div>
+</section>
+<section>
+    <div class="intro" id="intro">
+    
+        <h1 >Want the complete <span class="highlight">details of a movie?</h1>
+        <p>Search for the movie name and get complete details including direacters, actors, IMDB ratings, Votes, Earnings and more interesting facts.</p>
+    </div>
+    <div id="loader" ></div>
+</section>
+<section>
+<div id="movie-container" class="movie-container">
+    <div class="content">
+<h1 id="title" > Kantara  </h1>
+<span id="year"></span>
+<p id="desc" class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, maxime.</p>
+<p>Actors: <span id="actors">  </span></p>
+<p>Director: <span id="director"> </span></p>
+<p>Awards: <span id="awards"></span></p>
+<p>Collections: <span id="collections"></span></p>
+    </div>
+    <div class="movie-img-container">
+        <img class="movie-img" id="img" src=""    alt="">
+<div class="ratings" >IMDB: <span id="ratings">7.8  </span>   </div>
+<div class="genre" id="genre">"Action, Drama"</div>
+    </div>
+</div>
+
+
+</section>
+<section>
+    <h1 class="error" id="error">Movie Not Found!</h1>
+</section>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
