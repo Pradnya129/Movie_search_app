@@ -1,28 +1,4 @@
 
-const express = require('express');
-const cors = require('cors');
-const app = express();
-
-// Allow requests only from your production domain
-app.use(
-  cors({
-    origin: ' http://www.omdbapi.com/?i=tt3896198&apikey=944fa852&t=',
-    methods: 'GET, POST, PUT, DELETE',
-  })
-);
-
-// ...rest of your API code
-
-app.listen(3000, () => {
-  console.log('API server is running');
-});
-
-
-
-
-
-
-
 let API=' http://www.omdbapi.com/?i=tt3896198&apikey=944fa852&t=';
 let img=document.getElementById("img")
 let title=document.getElementById("title");
